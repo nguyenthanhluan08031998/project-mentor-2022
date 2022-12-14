@@ -1,0 +1,29 @@
+.sectiom-product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title{
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        display: inline-block;
+        background: #028848;
+        box-shadow: 0px 0px 0px 2px rgb(0 136 72 / 80%);
+        padding: 15px;
+        border-radius: 30px;
+        width: 400px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .list-product{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &:not(:last-child){
+        margin-bottom: 100px;
+    }
+}

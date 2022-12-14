@@ -1,0 +1,30 @@
+.product{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 20pxinput__search;
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    .txt-name{
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 20px;
+    }   
+   .txt-price{
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .btn{
+        height: 36px;
+        width: 160px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}

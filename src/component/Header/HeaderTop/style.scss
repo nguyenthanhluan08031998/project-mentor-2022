@@ -1,0 +1,49 @@
+.header-top {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #0089CF, #009247);
+    .logo{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+      .logo__img{
+        height: 50px;
+      }
+      
+      /*  */
+      .search{
+      
+      }
+      .input__search{
+        height: 40px;
+        width: 300px;
+        border-radius: 10PX;
+        border-width: 0px;
+        padding: 0px 20px;
+      }
+      /*  */
+      
+      .select__address{
+        width: 200px;
+        background-color: transparent;
+        color: white;
+        border-width: 0px;
+      }
+      
+      /*  */
+      .btn__login{
+        width: 100px;
+      }
+      .txt__header{
+        color: white;
+      }
+      /*  */
+      .cart__shipping{
+        width: 100px;
+      }
+  }
+ 
