@@ -7,13 +7,13 @@ const Product = (props) => {
     const onBuyProduct = product => {
         dispatch(addProductToCart(product))
     }
-    
+
     const { data } = props;
-    const { img = '', name = '', price = '' } = data;
+    const { image = '', title = '', price = '' } = data;
     return (
         <div className="product">
-            <img src={img} />
-            <span className='txt-name'>{name}</span>
+            <img src={image} />
+            <span className='txt-name'>{title}</span>
             <span className='txt-price'>{price}</span>
             <button className='btn' onClick={() => onBuyProduct(data)}>Chọn mua</button>
         </div>
